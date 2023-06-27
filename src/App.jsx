@@ -4,7 +4,7 @@ Techstack;
 import { Techstack } from "./techstack/Techstack";
 const App = () => {
   return (
-    <div>
+    <div className=" ">
       <Header />
       <Hero />
       <Techstack />
