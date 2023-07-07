@@ -1,14 +1,9 @@
-import Header from "./assets/layouts/Header";
-import Hero from "./assets/layouts/Hero";
-Techstack;
-import { Techstack } from "./techstack/Techstack";
+import { MainLayout } from "./assets/layouts/MainLayout";
 const App = () => {
   return (
-    <div className=" ">
-      <Header />
-      <Hero />
-      <Techstack />
-    </div>
+    <>
+      <MainLayout />
+    </>
   );
 };
 
