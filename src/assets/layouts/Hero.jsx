@@ -1,7 +1,7 @@
 const Hero = ({ discription }) => {
   return (
     <div className="md:mx-24 lg:mx-48">
-      <div className="grid  md:grid-cols-2 ">
+      <div className="grid  p-2 md:grid-cols-2">
         <div className="grid-item ">
           <div className="ml-2 flex justify-center ">
             <img src="./jason-profile.png" alt="" className="rounded-lg" />
@@ -9,12 +9,12 @@ const Hero = ({ discription }) => {
         </div>
         <div className="grid-item">
           <div className="flex ">
-            <div className="p-4  md:mt-24 lg:mt-48">
+            <div className="mt-6 pl-2 md:mt-24 md:p-3 lg:mt-48 lg:p-4">
               <div className="flex flex-col gap-3">
-                <div className="flex-item flex flex-row text-3xl font-semibold lg:text-4xl">
+                <div className="flex-item flex flex-row text-3xl font-semibold md:text-xl lg:text-4xl">
                   Full Stack Software Engineer
                 </div>
-                <span className="pr-6 text-lg font-semibold text-gray-900">
+                <span className="font-semibold text-gray-900 lg:pr-6 lg:text-lg">
                   A 21-year-old software engineer based in Davao City,
                   Philippines.
                 </span>
@@ -32,7 +32,7 @@ const Hero = ({ discription }) => {
           </div>
         </div>
       </div>
-      <div className="mx-4 font-semibold text-gray-500 md:mx-3 lg:mx-10">
+      <div className="mx-4 font-semibold text-gray-500 underline md:mx-3 lg:mx-10">
         {discription}
       </div>
     </div>
